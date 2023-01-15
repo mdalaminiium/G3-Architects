@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Head section */
+.header-section {
+    background-color: bisque;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Banner section */
+.banner-section {
+    text-align: center;
+
+}
+
+.banner-heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.banner-content {
+    padding-bottom: 20px;
+}
+
+.banner-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Banner photo */
+.banner-photo {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Features section */
+.feature-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.features-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Love and enjoy section */
+.love-enjoy-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.love-enjoy-content-section {
+    width: 50%;
+}
+
+.love-version {
+    padding: 10px;
+    box-shadow: 5px 2px 5px 5px rgb(199, 194, 194);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.love-version h2 {
+    padding-bottom: 10px;
+}
+
+.love-photo {
+    width: 40%;
+}
+
+.love-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rebeccapurple;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+    color: white;
+    position: relative;
+    top: -40px;
+    left: -40px;
+}
+
+/* Some facts */
+.facts-count {
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.fact-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-count img {
+    width: 30%;
+    padding: 20px;
+}
+
+/* Sponsors */
+
+.sponsor-section {
+    margin-top: 50px;
+}
+
+.sponsor-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sponsor-company {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsor-company img {
+    filter: grayscale(100%);
+}
+
+.copyright-section h4 {
+    text-align: center;
+}
